@@ -23,9 +23,9 @@ A GUI-based Employee Management System using **Python (Tkinter)** and **MySQL**.
 ```
 employee-management-system/
 ├── database/
-│   └── employee_schema.sql
+│   └── emp.sql
 ├── src/
-│   └── main.py
+│   └── Employee Management System GUI.py
 ├── requirements.txt
 ├── README.md
 ```
