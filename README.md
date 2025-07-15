@@ -40,7 +40,7 @@ employee-management-system/
 
 2. Run the SQL file in MySQL:
    ```sql
-   SOURCE database/employee_schema.sql;
+   SOURCE database/emp.sql;
    ```
 
 3. Install Python requirements:
@@ -50,7 +50,7 @@ employee-management-system/
 
 4. Run the application:
    ```bash
-   python src/main.py
+   python src/Employee Management System GUI.py
    ```
 
 ---
