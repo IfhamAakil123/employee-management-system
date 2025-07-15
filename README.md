@@ -1,30 +1,61 @@
 # Employee Management System
 
-A simple Employee Management System with GUI using **Python (Tkinter)** and **MySQL**, capable of managing employees, departments, projects, and attendance.
+A GUI-based Employee Management System using **Python (Tkinter)** and **MySQL**. This was developed as a DBMS semester project by **Mohamed Ifham Aakil**.
 
-## 💡 Features
+## ✅ Features
 
 - Department Management
-- Employee Add/View/Search/Remove/Promote
-- Project Management & Assignments
-- Attendance Logging
-- Email and Phone validation
-- Scrollable, user-friendly GUI
+- Add/View/Search/Remove/Promote Employees
+- Add/View Projects and Assignments
+- Log/View Attendance
+- Email & Phone Validation
+- User-friendly GUI using Tkinter
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3
 - Tkinter
 - MySQL
 - mysql-connector-python
 
-## 🗃 Database
+## 📂 Folder Structure
 
-All tables are created in `database/employee_schema.sql`.
+```
+employee-management-system/
+├── database/
+│   └── employee_schema.sql
+├── src/
+│   └── main.py
+├── requirements.txt
+├── README.md
+```
 
-## 🚀 How to Run
+## 💾 How to Run
 
-1. **Clone the repository**  
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/employee-management-system.git
    cd employee-management-system
+   ```
+
+2. Run the SQL file in MySQL:
+   ```sql
+   SOURCE database/employee_schema.sql;
+   ```
+
+3. Install Python requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+   ```bash
+   python src/main.py
+   ```
+
+---
+
+## 👤 Author
+
+**Mohamed Ifham Aakil**  
+GitHub: [https://github.com/yourusername](https://github.com/yourusername)
